@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import Slider from '@react-native-community/slider';
-import { Camera } from 'expo-camera';
 
 export default function TorchIntensity() {
   const [torchIntensity, setTorchIntensity] = useState(0);
 
   const handleSliderChange = (value) => {
     setTorchIntensity(value);
-    Camera.setTorchIntensityAsync(value); // Set the torch intensity using the Expo Camera API
   }
 
   return (
@@ -44,4 +42,4 @@ const styles = StyleSheet.create({
     height: 100,
     marginTop: 300,
   },
-});yarn
+});
