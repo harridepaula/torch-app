@@ -1,7 +1,7 @@
-import React from 'react';
-import { View, Button } from 'react-native';
-import MyButton from '../Components/Button';
-import Slider from '../Components/Slider';
+import React from "react";
+import { View } from "react-native";
+import MyButton from "../Components/Button";
+import Slider from "../Components/Slider";
 
 function MyComponent() {
   return (
@@ -13,4 +13,3 @@ function MyComponent() {
 }
 
 export default MyComponent;
-
